@@ -71,9 +71,6 @@ nav {
 	float: top;
 	padding-top: 1%;
 }
-a {
-	padding: 4%;
-}
 .logo	{
 	float: right;
 }
@@ -133,4 +130,9 @@ a {
 
 .center-the-copyright-with-a-long-class-name-for-giggles	{
 	text-align: center;
+}
+a:active, a:link, a:visited, a:hover {
+	padding: 4%;
+	text-decoration: none;
+	color: lightgray;
 }
